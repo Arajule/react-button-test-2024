@@ -1,0 +1,20 @@
+{
+  "name": "react-button-test-publish",
+  "version": "1.0.3",
+  "description": "simple react button",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arajule",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
